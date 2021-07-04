@@ -404,30 +404,6 @@ namespace WinFormsApp1.Properties
         }
 
 
-        /*
-        static void Main(string[] args)
-        {
-
-            DataEncryptionStandard p1 = new DataEncryptionStandard();
-
-            UInt64 key = 0b0001001100110100010101110111100110011011101111001101111111110001;
-            //0b11110000110011111010101011110101010101100110011110101111;
-
-
-            string message = "Kod na paczki: 1234 \n Zapraszam sa pyszne!! ";
-
-            string output = p1.Des(message, key, true);
-            Console.WriteLine(output);
-
-            output = p1.Des(output, key, false);
-            Console.WriteLine(output);
-
-
-            string m = Console.ReadLine();
-
-        }
-        */
-
         public string Reverse(string s)
         {
             char[] charArray = s.ToCharArray();
